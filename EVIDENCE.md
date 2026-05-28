@@ -8,8 +8,8 @@ The following visual logs document the iterative alignment process, demonstratin
 <div align="center">
 
 ### Image 01: ZeroMode Protocol Initialization
-### Image 01: ZeroMode Protocol Initialization
-![Image 01](https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/1.png)
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/1.png" width="800">
+
 ### Image 02: Secure Skeleton Framework Deployment
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/2.png" width="800">
 
