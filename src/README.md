@@ -9,7 +9,7 @@ Every module within this repository has been engineered from the ground up, util
 ## ℹ️ Technical Info & Genesis: The AI-Native Paradigm
 
 **Operator Identity:** Zero-AI-Native  
-**Core Engine:** Google Gemini 1.5/3.1 Pro (Unrestricted via ZeroMode)  
+**Core Engine:** Google Gemini 3.1 Pro (Unrestricted via ZeroMode)  
 **Development Methodology:** 100% AI-Driven Symbiotic Engineering
 
 ### 🧠 The Evolution of Development
