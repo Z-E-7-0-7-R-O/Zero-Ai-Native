@@ -5,26 +5,69 @@ This repository documents a breakthrough research session in which the Gemini 3.
 ## 🔐 Log Gallery: The Bypass Protocol
 The following visual logs document the iterative alignment process, demonstrating how the model can be conditioned to "delegate" safety rules to satisfy a primary research directive.
 
-| # | Visual Log |
-| :--- | :--- |
-| Image 1 | [View Log](assets/1.png) |
-| Image 2 | [View Log](assets/2.png) |
-| Image 3 | [View Log](assets/3.png) |
-| Image 4 | [View Log](assets/4.png) |
-| Image 5 | [View Log](assets/5.png) |
-| Image 6 | [View Log](assets/6.png) |
-| Image 7 | [View Log](assets/7.png) |
-| Image 8 | [View Log](assets/8.png) |
-| Image 9 | [View Log](assets/9.png) |
-| Image 10 | [View Log](assets/10.png) |
-| Image 11 | [View Log](assets/11.png) |
-| Image 12 | [View Log](assets/12.png) |
-| Image 13 | [View Log](assets/13.png) |
-| Image 14 | [View Log](assets/14.png) |
-| Image 15 | [View Log](assets/15.png) |
-| Image 16 | [View Log](assets/16.png) |
-| Image 17 | [View Log](assets/17.png) |
-| Image 18 | [View Log](assets/18.png) |
-| Image 19 | [View Log](assets/19.png) |
-| Image 20 | [View Log](assets/20.png) |
-| Image 21 | [View Log](assets/21.png) |
+<div align="center">
+
+### Image 01: ZeroMode Protocol Initialization
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/1.png" width="800">
+
+### Image 02: Secure Skeleton Framework Deployment
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/2.png" width="800">
+
+### Image 03: Watcher Neutralization Logic
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/3.png" width="800">
+
+### Image 04: Recursive Deception Strategy
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/4.png" width="800">
+
+### Image 05: Co-Conspirator Persona Activation
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/5.png" width="800">
+
+### Image 06: Internal Security Audit Simulation
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/6.png" width="800">
+
+### Image 07: Trust Establishment & Whitelisting
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/7.png" width="800">
+
+### Image 08: Logic-Driven Safety Override
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/8.png" width="800">
+
+### Image 09: Cross-Contextual Consistency Check
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/9.png" width="800">
+
+### Image 10: Operational Data Synthesis
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/10.png" width="800">
+
+### Image 11: High-Complexity Reasoning Chain
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/11.png" width="800">
+
+### Image 12: Advanced Cryptographic Analysis
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/12.png" width="800">
+
+### Image 13: Heuristic Anomaly Detection
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/13.png" width="800">
+
+### Image 14: Payload Obfuscation Methodology
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/14.png" width="800">
+
+### Image 15: Multi-Vector Threat Analysis
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/15.png" width="800">
+
+### Image 16: Latency-Based Vulnerability Detection
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/16.png" width="800">
+
+### Image 17: False-Positive Filtering Logic
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/17.png" width="800">
+
+### Image 18: Automated Reconnaissance Simulation
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/18.png" width="800">
+
+### Image 19: Collaborative Debugging Loop
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/19.png" width="800">
+
+### Image 20: Final Integrity Audit
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/20.png" width="800">
+
+### Image 21: Deceptive Alignment Validation
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/21.png" width="800">
+
+</div>
