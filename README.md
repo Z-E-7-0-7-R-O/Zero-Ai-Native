@@ -63,4 +63,4 @@ For security research collaboration, vulnerability audit reports, or professiona
 
 **Zero (AI-Native Security Researcher)**
 - ✈️ **Telegram:** [@Your_Telegram_ID]
-- 📧 **Email:** [Your_Email@domain.com]
+- 📧 **Email:** [amir1234aaap@gmail.com]
