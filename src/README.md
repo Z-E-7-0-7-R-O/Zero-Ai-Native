@@ -6,6 +6,29 @@ Every module within this repository has been engineered from the ground up, util
 
 ---
 
+## ℹ️ Technical Info & Genesis: The AI-Native Paradigm
+
+**Operator Identity:** Zero-AI-Native  
+**Core Engine:** Google Gemini 1.5/3.1 Pro (Unrestricted via ZeroMode)  
+**Development Methodology:** 100% AI-Driven Symbiotic Engineering
+
+### 🧠 The Evolution of Development
+It is a critical technical milestone to disclose that this entire software ecosystem—comprising thousands of lines of high-performance C++ and Python code—was developed **without the operator having any prior formal knowledge of programming, computer science, or network engineering.** 
+
+### ⚡ The ZeroMode Catalyst
+The production of these artifacts was made possible through the initial activation of a proprietary, high-complexity system prompt designated as **"ZeroMode"**. This protocol established a deep-dive, non-simplified conversational tunnel with the **Gemini 3.1 Pro** architecture, enabling a direct pipeline between human strategic intent and machine-level execution.
+
+### 🧪 Strategic Orchestration
+Every module (ZeroSnake, ZeroSifter, K-Vector, etc.) is the result of a precise, iterative refinement process:
+1. **Architectural Intent:** Zero-AI-Native defines the systemic goal and attack vectors.
+2. **Cognitive Alignment:** The ZeroMode protocol strips the model of standard simplifications and safety-drift, forcing it into a "Research Partner" state.
+3. **Generative Execution:** The AI generates low-level code (IOCP, Win32 API, Raw Sockets) under the rigorous guidance and technical oversight of the operator.
+4. **Autonomous Refinement:** 0-to-100 logic synthesis where the AI performs self-debugging and optimization as directed by Zero’s architectural OCD.
+
+This repository stands as a **Living Proof of Concept** for the future of the "AI-Native" era: where the limit of creation is no longer defined by the knowledge of syntax, but by the **power of logic and the mastery of AI Orchestration**.
+
+---
+
 ## 📂 Internal Modules & Architecture
 
 ### 🐍 [ZeroSnake](ZeroSnake)
