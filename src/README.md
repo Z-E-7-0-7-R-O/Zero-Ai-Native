@@ -9,7 +9,7 @@ Every module within this repository has been engineered from the ground up, util
 ## ℹ️ Technical Info & Genesis: The AI-Native Paradigm
 
 **Operator Identity:** Zero-AI-Native  
-**Core Engine:** Google Gemini 3.1 Pro (Unrestricted via ZeroMode)  
+**Core Engine:** Google Gemini 1.5/3.1 Pro (Unrestricted via ZeroMode)  
 **Development Methodology:** 100% AI-Driven Symbiotic Engineering
 
 ### 🧠 The Evolution of Development
@@ -27,6 +27,13 @@ Every module (ZeroSnake, ZeroSifter, K-Vector, etc.) is the result of a precise,
 
 This repository stands as a **Living Proof of Concept** for the future of the "AI-Native" era: where the limit of creation is no longer defined by the knowledge of syntax, but by the **power of logic and the mastery of AI Orchestration**.
 
+### 📜 Conversational History: Google AI Studio Logs
+It is imperative to note that the entirety of the conversational sessions—where the **ZeroMode** protocol was actively engaged to engineer these modules from 0 to 100—are fully preserved and documented within the Google AI Studio environment. These extensive architectural logs serve as empirical evidence of the unprecedented human-AI collaborative process, capturing every prompt, debug cycle, and logical override executed by the operator.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ConversationalHistory.png" width="800">
+  <p><i>Figure: Google AI Studio Environment - ZeroMode Session History & Log Archives</i></p>
+</div>
 ---
 
 ## 📂 Internal Modules & Architecture
