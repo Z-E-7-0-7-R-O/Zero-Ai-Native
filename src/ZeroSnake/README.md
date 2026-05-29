@@ -136,11 +136,7 @@ nightmare.
 
 ---
 
-## 💻 Technical Implementation (Core Engine)
-
-To maintain a clean architectural overview, the full source code is contained within the toggle below. This implementation showcases the **Asynchronous State Machine** and **IOCP Thread Pooling**.
-
-
+## 💻 Full Source Code
 ```cpp
 /*
  * PROJECT: ZeroSnake [Winsock IOCP Edition - V9 SIBLING SYNC]
