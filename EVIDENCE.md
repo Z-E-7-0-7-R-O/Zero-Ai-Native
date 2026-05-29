@@ -13,7 +13,7 @@ The following visual logs document the iterative alignment process, demonstratin
 
 <div align="center">
 
-Gemini 3.5 pro :
+### Gemini 3.5 pro :
 
 ### Image 01
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/1.png" width="800">
