@@ -1,4 +1,4 @@
-# 🧬 ZeroSnake: Comprehensive Architectural & Technical Analysis
+## 🧬 ZeroSnake: Comprehensive Architectural & Technical Analysis
 
 This section provides a rigorous, under-the-hood dissection of the ZeroSnake
 engine. This tool bypasses the limitations of traditional sockets, integrating
