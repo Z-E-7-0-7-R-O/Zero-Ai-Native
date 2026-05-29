@@ -34,7 +34,6 @@ It is imperative to note that the entirety of the conversational sessions—wher
   <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ConversationalHistory.png" width="800">
   <p><i>Figure: Google AI Studio Environment - ZeroMode Session History & Log Archives</i></p>
 </div>
----
 
 ## 📂 Internal Modules & Architecture
 
