@@ -141,7 +141,6 @@ nightmare.
 To maintain a clean architectural overview, the full source code is contained within the toggle below. This implementation showcases the **Asynchronous State Machine** and **IOCP Thread Pooling**.
 
 <details>
-<summary><b>▶ Click to Expand Full Source Code (ZeroSnake.cpp)</b></summary>
 
 ```cpp
 /*
