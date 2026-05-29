@@ -1,11 +1,11 @@
-## 🧬 ZeroSnake: Comprehensive Architectural & Technical Analysis
+# 🧬 ZeroSnake: Comprehensive Architectural & Technical Analysis
 
 This section provides a rigorous, under-the-hood dissection of the ZeroSnake
 engine. This tool bypasses the limitations of traditional sockets, integrating
 directly with Native Windows APIs to achieve unprecedented network
 reconnaissance capabilities.
 
-## ⚙️ 1. The IOCP Core Engine (Asynchronous Input/Output Completion Ports)
+### ⚙️ 1. The IOCP Core Engine (Asynchronous Input/Output Completion Ports)
 
 The beating heart of ZeroSnake is the I/O Completion Ports (IOCP) architecture.
 Unlike traditional scanners that spawn a dedicated thread for each connection
@@ -26,7 +26,7 @@ optimized Event-Driven paradigm.
     received from a target server. This architecture permits over 100,000
     Concurrent Sockets to remain in a PENDING state without freezing the system.
 
-## 🛡️ 2. Sentinel Guard & Resource Management
+### 🛡️ 2. Sentinel Guard & Resource Management
 
 To prevent Resource Exhaustion (the depletion of OS resources such as Ephemeral
 ports), the code is equipped with an atomic monitoring system.
@@ -46,7 +46,7 @@ ports), the code is equipped with an atomic monitoring system.
     using PostQueuedCompletionStatus(g_hIOCP, 0, 0, NULL), ensuring they shut
     down safely before securely closing the IOCP handle (CloseHandle(g_hIOCP)).
 
-## 🌌 3. Smart CIDR & Bogon Filtering Engine
+### 🌌 3. Smart CIDR & Bogon Filtering Engine
 
 Time is the most valuable asset of a scanner. ZeroSnake never wastes cycles on
 invalid addresses.
@@ -61,7 +61,7 @@ invalid addresses.
     (224.x.x.x), and Carrier-grade NAT (100.64.0.0/10). This logic ensures the
     scanner fires exclusively at valid, public internet spaces.
 
-## ⚔️ 4. Strategic Target Port Matrix
+### ⚔️ 4. Strategic Target Port Matrix
 
 The g_TargetPorts array is not a random list; it is a meticulously crafted
 Infrastructure Kill-Chain roadmap.
@@ -76,7 +76,7 @@ Infrastructure Kill-Chain roadmap.
     selection clearly indicates ZeroSnake's primary objective: locating servers
     holding the highest tier of critical data.
 
-## 🧩 5. Cross-Session Hash Guard Deduplication
+### 🧩 5. Cross-Session Hash Guard Deduplication
 
 Managing incoming data from thousands of open ports requires an ultra-fast,
 in-memory database.
@@ -89,7 +89,7 @@ in-memory database.
     > 50000) g_HashGuard.clear();. This logic guarantees that the application's
     cache will never overflow.
 
-## 🌊 6. Advanced Thread-Safe Asynchronous I/O
+### 🌊 6. Advanced Thread-Safe Asynchronous I/O
 
 Transferring data from network threads to the UI thread is the primary cause of
 C++ application crashes. ZeroSnake neutralizes this threat.
@@ -102,7 +102,7 @@ C++ application crashes. ZeroSnake neutralizes this threat.
     minimizes Context Switching, ensuring the UI remains perfectly smooth (60
     FPS) even under extreme scanning loads of 50,000 PPS.
 
-## 🎨 7. Waterfall UI Rendering & Dynamic Geometry
+### 🎨 7. Waterfall UI Rendering & Dynamic Geometry
 
 The Graphical User Interface is architected with DirectX 11 and ImGui to ensure
 absolute minimum GPU and CPU footprint.
@@ -121,7 +121,7 @@ absolute minimum GPU and CPU footprint.
     regardless of window resizing, text (especially the open ports list) never
     overflows its container and wraps perfectly.
 
-## 💾 8. Asynchronous File Serialization
+### 💾 8. Asynchronous File Serialization
 
 Data loss due to sudden power failure or system crashes is an operator's worst
 nightmare.
