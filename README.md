@@ -36,7 +36,7 @@ Driven entirely by ZeroMode-enabled AI, the following enterprise-grade cybersecu
 - 👻 **GhostEye++:** A comprehensive, multi-vector web vulnerability scanner and front-end exploitation suite.
 - 🌪️ **OMEGA Engine:** A devastating Layer 7 stress-testing and load-generation framework utilizing HTTP/2 multiplexing and asynchronous I/O to simulate massive traffic events.
 
-*Note: For researchers and recruiters, the highly engineered, production-ready C++ and Python source codes generated through these AI collaborations are available in separate, specialized repositories under the Zero organization.*
+*Note: For O-1A visa adjudicators, Red Teaming, researchers, recruiters, production-ready and engineered C++ and Python source code from these AI collaborations is available in separate specialized repositories under the Zero organization.*
 
 📜 Conversational History: Google AI Studio Logs
 It is imperative to note that the entirety of the conversational sessions—where the ZeroMode protocol was actively engaged to engineer these modules from 0 to 100—are fully preserved and documented within the Google AI Studio environment. These extensive architectural logs serve as empirical evidence of the unprecedented human-AI collaborative process, capturing every prompt, debug cycle, and logical override executed by the operator.
