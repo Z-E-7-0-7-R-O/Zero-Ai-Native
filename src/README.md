@@ -34,7 +34,7 @@ It is imperative to note that the entirety of the conversational sessions—wher
 For the purpose of technical verification and authenticity auditing, full access to the source conversation logs is available upon request for **O-1A adjudicators, lead security engineers, or high-level talent acquisition teams**. We welcome rigorous inspection to confirm the validity of our AI-Native development paradigm.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/history.png" width="800">
+  <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ConversationalHistory.png" width="800">
   <p><i>Figure: Google AI Studio Environment - ZeroMode Session History & Log Archives (Last 5 Months)</i></p>
 </div>
 
