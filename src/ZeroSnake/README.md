@@ -102,6 +102,20 @@ C++ application crashes. ZeroSnake neutralizes this threat.
     minimizes Context Switching, ensuring the UI remains perfectly smooth (60
     FPS) even under extreme scanning loads of 50,000 PPS.
 
+### 💾 8. Asynchronous File Serialization
+
+Data loss due to sudden power failure or system crashes is an operator's worst
+nightmare.
+
+  - The FileWriterWorker: A completely isolated Thread that bears zero
+    interference with the scanning engine or the UI.
+  - Dirty Flag Logic: The std::atomic<bool> g_DirtyFile variable monitors
+    whether new data has been added to the host list. The live database is
+    rewritten to LiveHosts.txt only when this flag is set to True. The output
+    format is hyper-optimized so it can be instantly ingested by its sibling
+    tool (ZeroSifter) for the Exploitation phase.
+
+
 ### 🎨 7. Waterfall UI Rendering & Dynamic Geometry
 
 The Graphical User Interface is architected with DirectX 11 and ImGui to ensure
@@ -120,19 +134,14 @@ absolute minimum GPU and CPU footprint.
     (ImGui::GetCursorPos().x) combined with PushTextWrapPos guarantee that
     regardless of window resizing, text (especially the open ports list) never
     overflows its container and wraps perfectly.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ZeroSnake-0_UI-0.png" width="800">
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ZeroSnake-1.png" width="800">
+  <p><i>Figure: ZeroSnake Operational Dashboard - Real-time Vulnerability Fuzzing via IOCP. 
+  Note: All displayed vulnerability data and target IP addresses are derived from live-fire testing environments, confirming the engine's capability to identify genuine, active-state security flaws. No simulation or fake data was utilized in this validation.</i></p>
+</div>
 
-### 💾 8. Asynchronous File Serialization
-
-Data loss due to sudden power failure or system crashes is an operator's worst
-nightmare.
-
-  - The FileWriterWorker: A completely isolated Thread that bears zero
-    interference with the scanning engine or the UI.
-  - Dirty Flag Logic: The std::atomic<bool> g_DirtyFile variable monitors
-    whether new data has been added to the host list. The live database is
-    rewritten to LiveHosts.txt only when this flag is set to True. The output
-    format is hyper-optimized so it can be instantly ingested by its sibling
-    tool (ZeroSifter) for the Exploitation phase.
 
 ---
 
