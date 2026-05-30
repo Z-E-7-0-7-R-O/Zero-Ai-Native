@@ -77,18 +77,17 @@ ZeroSifter is designed for a seamless, frictionless pipeline, converting raw tel
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ZeroSifter_UI-0.png" width="800">
-<div align="center">
+  <br>
   <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ZeroSifter_UI-1.png" width="800">
   <p><i>ZeroSifter Operational Dashboard - Real-time Vulnerability Phasing via IOCP. Note: All displayed vulnerability data and target IP addresses are taken from live test environments and are fully real and operational, confirming the engine's ability to detect real, active security flaws. No simulations or fake data were used in this validation.</i></p>
 </div>
-   
----
-*ZeroSifter: The culmination of AI-orchestrated logic and native C++ dominance.* 💀💜💎
----
 
 ---
+
+*ZeroSifter: The culmination of AI-orchestrated logic and native C++ dominance.* 💀💜💎
 
 ## 💻 Full Source Code
+
 ```cpp
 /*
  * PROJECT: ZeroSifter[Hybrid IOCP Edition - V21 ABSOLUTE PERFECTION]
