@@ -136,10 +136,14 @@ absolute minimum GPU and CPU footprint.
     overflows its container and wraps perfectly.
     
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ZeroSnake_UI-0.png" width="800">
-  <br>
-  <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ZeroSnake_UI-1.png" width="800">
+  <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ZeroSifter_UI-0.png" width="800">
+  <br><br>
+  <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ZeroSifter_UI-1.png" width="800">
   <p><i>ZeroSnake Operational Dashboard - Scan IPs with different open ports in real time via IOCP. Note: All data displayed ports and IP addresses are taken from live test environments and are fully real and operational, confirming the engine's ability to detect real and active security flaws. No simulations or fake data were used in this validation.</i></p>
+</div>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/LiveHosts.png" width="800">
+  <p><i>The report shown in the image shows a real sample of data such as IPs and their various ports, and the scanning, detection, and extraction operations performed by ZeroSnake during a real security audit. All of these objectives and outputs have been verified by ZeroSnake’s sibling, ZeroSifter.</i></p>
 </div>
   
 ## 💻 Full Source Code
