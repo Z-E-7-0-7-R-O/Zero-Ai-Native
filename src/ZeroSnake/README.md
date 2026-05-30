@@ -140,10 +140,6 @@ absolute minimum GPU and CPU footprint.
   <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ZeroSnake_UI-1.png" width="800">
   <p><i>ZeroSnake Operational Dashboard - Scan IPs with different open ports in real time via IOCP. Note: All data displayed ports and IP addresses are taken from live test environments and are fully real and operational, confirming the engine's ability to detect real and active security flaws. No simulations or fake data were used in this validation.</i></p>
 </div>
-
-
----
-
 ## 💻 Full Source Code
 ```cpp
 /*
