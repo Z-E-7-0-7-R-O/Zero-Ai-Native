@@ -138,8 +138,7 @@ absolute minimum GPU and CPU footprint.
   <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ZeroSnake-0_UI-0.png" width="800">
 <div align="center">
   <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/ZeroSnake-1.png" width="800">
-  <p><i>Figure: ZeroSnake Operational Dashboard - Real-time Vulnerability Fuzzing via IOCP. 
-  Note: All displayed vulnerability data and target IP addresses are derived from live-fire testing environments, confirming the engine's capability to identify genuine, active-state security flaws. No simulation or fake data was utilized in this validation.</i></p>
+  <p><i>ZeroSnake Operational Dashboard - Scan IPs with different open ports in real time via IOCP. Note: All data displayed ports and IP addresses are taken from live test environments and are fully real and operational, confirming the engine's ability to detect real and active security flaws. No simulations or fake data were used in this validation.</i></p>
 </div>
 
 
