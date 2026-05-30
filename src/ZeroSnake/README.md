@@ -102,7 +102,7 @@ C++ application crashes. ZeroSnake neutralizes this threat.
     minimizes Context Switching, ensuring the UI remains perfectly smooth (60
     FPS) even under extreme scanning loads of 50,000 PPS.
 
-### 💾 8. Asynchronous File Serialization
+### 💾 7. Asynchronous File Serialization
 
 Data loss due to sudden power failure or system crashes is an operator's worst
 nightmare.
@@ -116,7 +116,7 @@ nightmare.
     tool (ZeroSifter) for the Exploitation phase.
 
 
-### 🎨 7. Waterfall UI Rendering & Dynamic Geometry
+### 🎨 8. Waterfall UI Rendering & Dynamic Geometry
 
 The Graphical User Interface is architected with DirectX 11 and ImGui to ensure
 absolute minimum GPU and CPU footprint.
