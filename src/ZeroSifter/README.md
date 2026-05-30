@@ -43,9 +43,6 @@ To handle thousands of successful exploitation responses without memory bloat or
 ---
 
 ## 💻 Full Source Code
-
-For a comprehensive architectural review, please expand the section below to display the complete source code implementation.
-
 ```cpp
 /*
  * PROJECT: ZeroSifter[Hybrid IOCP Edition - V21 ABSOLUTE PERFECTION]
