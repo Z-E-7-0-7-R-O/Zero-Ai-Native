@@ -83,7 +83,7 @@ ZeroSifter is designed for a seamless, frictionless pipeline, converting raw tel
 </div>
 <div align="center">
   <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/Vulnerable_Hosts.png" width="800">
-  <p><i>Figure: ZeroSifter Vulnerability Output - Live Reconnaissance Data. Note: This visual log represents a sample of genuine, operational data extracted by the ZeroSifter engine during a live-fire security audit. These targets were confirmed active and vulnerable in real-time.</i></p>
+  <p><i>This visual report is a sample of data such as vulnerabilities on different IPs and different ports with different methods and payloads and different delays, and is fully real and operationally extracted by ZeroSifter and shows ZeroSifter during a real and real security audit. The active and real vulnerability of these targets and outputs was confirmed in real time.</i></p>
 </div>
 
 ## 💻 Full Source Code
