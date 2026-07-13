@@ -68,5 +68,5 @@ Technical artifacts, including the fully engineered C++ and Python exploitation 
 For security research collaboration, vulnerability audit reports, or professional inquiries regarding **O-1A visa sponsorship, hiring, and relocation support**, please send a direct message to:
 
 **Zero (AI-Native Security Researcher)**
-- ✈️ **Telegram:** [@Your_Telegram_ID]
+- ✈️ **Telegram:** [@ze707ro]
 - 📧 **Email:** [Z-E-7-00-7-R-O@proton.me]
