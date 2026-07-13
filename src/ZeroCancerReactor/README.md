@@ -109,7 +109,7 @@ These modules handle the extreme boundary conditions of the simulation and host 
 
 ## 📈 Empirical Proof: The 1,300-Year Stability Dataset
 
-The true value of this engine lies in its generated data. Included in this repository is the `FinalLog.zip` (compressed from a massive multi-megabyte CSV), which contains the final stress-test of the Zero Cancer Reactor.
+The true value of this engine lies in its generated data. Included in this repository is the `FinalLog.csv` (compressed from a massive multi-megabyte CSV), which contains the final stress-test of the Zero Cancer Reactor.
 
 *   **Epochs Processed:** Over **72,000 consecutive ticks** running autonomously.
 *   **Temporal Equivalence:** Effectively simulating over **1,300 years** of real-time human-tumor symbiosis.
