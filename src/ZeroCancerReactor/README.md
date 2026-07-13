@@ -121,6 +121,6 @@ This dataset is not merely a log; it is a **Synthetic Bio-Data Generator pipelin
 ---
 
 ## ⚖️ Verification & O-1A Documentation
-This project was architected entirely from 0 to 100 by a single 15-year-old operator using adversarial LLM orchestration. 
+This project was architected entirely from 0 to 100 by a single 15-year-old operator using adversarial Gemini 3.1 pro language model. 
 
 For Intellectual Property (IP) protection, the core CUDA mathematical kernels (`NatureDirector.cpp` / `CellularKernel.cu`) are withheld from this public repository. **Full source code, architectural walkthroughs, and real-time execution audits are available exclusively upon request for Google Alphabet (DeepMind, Calico Labs) technical recruiters and O-1A Visa adjudicators.**
