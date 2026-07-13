@@ -136,4 +136,3 @@ EpochTick,TotalPopulation,HealthyCells,SenescentCells,ApoptoticCells,OncogenicCe
 
 ---
 *End of Telemetry Lexicon. All parameters extracted real-time from the Zero Cancer Reactor.* 💀💜💎
-```
