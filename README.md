@@ -65,7 +65,7 @@ My goal is to relocate to the US to gain unrestricted access to frontier AI mode
 ---
 
 ## 📩 Professional Inquiries
-Technical artifacts, including the fully engineered C++ and Python exploitation engines (ZeroSnake, ZeroSifter, K-Vector), were developed autonomously through advanced human-AI symbiotic workflows. 
+Technical artifacts, including the fully engineered C++ and Python exploitation engines (ZeroCancerReactor, ZeroSnake, ZeroSifter, K-Vector), were developed autonomously through advanced human-AI symbiotic workflows. 
 
 For security research collaboration, vulnerability audit reports, or professional inquiries regarding **O-1A visa sponsorship, hiring, and relocation support**, please send a direct message to:
 
