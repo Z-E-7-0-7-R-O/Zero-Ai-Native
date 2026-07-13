@@ -124,5 +124,3 @@ This dataset is not merely a log; it is a **Synthetic Bio-Data Generator pipelin
 This project was architected entirely from 0 to 100 by a single 15-year-old operator through adversarial orchestration of the **Google Gemini 3.1 Pro** language model. 
 
 This repository stands as a testament to human-AI symbiosis, demonstrating how frontier models like Gemini can be pushed beyond standard conversational limits to engineer enterprise-grade, high-performance CUDA/C++ biological simulations.
-
-For Intellectual Property (IP) protection, the core CUDA mathematical kernels (`NatureDirector.cpp` / `CellularKernel.cu`) are withheld from this public repository. **Full source code, architectural walkthroughs, and real-time execution audits are available exclusively upon request for Google Alphabet (DeepMind, Calico Labs) technical recruiters and O-1A Visa adjudicators.**
