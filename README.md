@@ -71,4 +71,4 @@ For security research collaboration, vulnerability audit reports, or professiona
 
 **Zero (AI-Native Security Researcher)**
 - ✈️ **Telegram:** [@ze707ro]
-- 📧 **Email:** [Z-E-7-00-7-R-O@proton.me]
+- 📧 **Email:** [z.e.7.0.0.7.r.o@gmail.com]
