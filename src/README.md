@@ -56,6 +56,7 @@ For the purpose of technical verification and authenticity auditing, full access
 - **Transhumanist Objective (Host-Tumor Symbiosis):** The project pioneers an algorithmic pathway to biological immortality. It hijacks the neoplastic mechanisms of a simulated tumor (Z-Tumor), transforming it into a cybernetic endocrine gland. Through a mathematical PID controller, the tumor is forced into homeostasis, continuously secreting telomerase-rich exosomes to reverse host cellular senescence and theoretically lock the biological chrono-anchor exactly at age 25.
 - **The 1,300-Year Temporal Record:** In its ultimate multi-hour stress test, the reactor processed over 72,000 continuous epochs. This translates to an uninterrupted, real-time simulation of 1,300 biological years of perfect human-tumor symbiosis. The logging mechanism safely recorded the secretion and absorption of over 9.6 Billion exosomes, maintaining total system homeostasis and 0.0% systemic inflammation.
 - **Codebase Magnitude:** Contains over 3,500 lines of highly optimized, bare-metal C++ and CUDA code engineered entirely from the ground up through AI orchestration.
+> **🔗 Access & Research:** Click on the hyperlinked module name above to enter its dedicated directory for full source code, comprehensive documentation, and deeper technical review.
 
 ### 🐍 [ZeroSnake](ZeroSnake)
 **Role:** Mass-Scale Autonomous Network Reconnaissance Engine  
@@ -65,6 +66,7 @@ For the purpose of technical verification and authenticity auditing, full access
 - **VPN & NAT Tunneling Resilience:** Engineered to bypass local firewall anomalies and routing blackholes, maintaining stable telemetry across encrypted interfaces.
 - **Smart CIDR & Bogon Filtering:** Integrates highly optimized bitwise operations to automatically drop Bogon/reserved IP spaces, maximizing global scan efficiency.
 - **Memory-Safe RAII:** Employs strict Resource Acquisition Is Initialization (RAII) paradigms to prevent handle leaks during high-voltage network fuzzing.
+> **🔗 Access & Research:** Click on the hyperlinked module name above to enter its dedicated directory for full source code, comprehensive documentation, and deeper technical review.
 
 ### 🗡️ [ZeroSifter](ZeroSifter)
 **Role:** Asynchronous Layer 7 Vulnerability Fuzzer & Post-Reconnaissance State-Machine  
@@ -73,6 +75,7 @@ For the purpose of technical verification and authenticity auditing, full access
 - **Unified IOCP Core:** Acts as the direct successor to ZeroSnake, ingesting live-host data to execute non-blocking, multi-threaded application-layer probes.
 - **FractalBrain Polymorphic Engine:** Dynamically generates complex attack vectors (RCE, Blind SQLi, LFI) designed to evade Web Application Firewalls via payload obfuscation (e.g., injecting inline SQL comments `/*!50000UNION*/`).
 - **Cross-Session Deduplication:** Implements atomic thread-safe caching to rigorously track identified vulnerabilities, ensuring zero memory leak overhead and 100% precision in logging.
+> **🔗 Access & Research:** Click on the hyperlinked module name above to enter its dedicated directory for full source code, comprehensive documentation, and deeper technical review.
 
 ### 🧮 [K-Vector](K-Vector)
 **Role:** Cryptographic Collision & Blockchain Analysis Engine  
@@ -81,6 +84,7 @@ For the purpose of technical verification and authenticity auditing, full access
 - **Signature Collision Detection:** Actively scans blockchain transactions (EVM-compatible chains) for catastrophic non-random nonce (`r-value`) reuse.
 - **Mathematical Key Recovery:** Leverages advanced modular arithmetic (`inverse_mod`) to calculate and extract SECP256k1 private keys directly from exposed transaction hashes.
 - **Automated Asset Securing:** Features a zero-fee algorithmic transfer protocol to instantly sweep and secure compromised assets via smart contract logic.
+> **🔗 Access & Research:** Click on the hyperlinked module name above to enter its dedicated directory for full source code, comprehensive documentation, and deeper technical review.
 
 ### 👻 [GhostEye](GhostEye)
 **Role:** Multi-Vector Web Exploitation & Threat Intelligence Suite  
@@ -89,6 +93,7 @@ For the purpose of technical verification and authenticity auditing, full access
 - **WAF Alchemist:** An integrated mutation engine that automatically transmutes payloads (Hex, URL-encoding, Null bytes) based on detected target defense mechanisms.
 - **Adaptive Payload Orchestration:** Features a tactical memory module that actively learns from server responses (e.g., Cloudflare, Akamai signatures) to refine and pivot attack vectors dynamically.
 - **50+ Integrated Arts:** A complete vulnerability matrix automating the discovery of critical flaws including SSRF, XXE, SSTI, GraphQL Injections, and Prototype Pollution.
+> **🔗 Access & Research:** Click on the hyperlinked module name above to enter its dedicated directory for full source code, comprehensive documentation, and deeper technical review.
 
 ### 🌪️ [OMEGA](OMEGA)
 **Role:** Advanced Layer 7 Resilience & Asynchronous Load Generation Framework  
@@ -97,7 +102,7 @@ For the purpose of technical verification and authenticity auditing, full access
 - **Asynchronous Protocol Overload:** Capable of executing devastating application-layer stress tests utilizing HTTP/2 Hellfire, Chunked Transfer attacks, and Slow Read Exhaustion.
 - **Dynamic Evasion:** Integrates automated proxy health verification, real-time browser profile rotation, and stealth header spoofing to bypass DPI and sophisticated rate-limiting architectures.
 - **Multi-Core Threading:** Leverages Python's multiprocessing alongside asyncio to maximize hardware utilization and achieve unparalleled Requests Per Second (RPS) output.
-
+> **🔗 Access & Research:** Click on the hyperlinked module name above to enter its dedicated directory for full source code, comprehensive documentation, and deeper technical review.
 ---
 
 ## 🛡️ Security & Compliance Note
