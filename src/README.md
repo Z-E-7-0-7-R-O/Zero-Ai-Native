@@ -19,7 +19,7 @@ It is a critical technical milestone to disclose that this entire software ecosy
 The production of these artifacts was made possible through the initial activation of a proprietary, high-complexity system prompt designated as **"ZeroMode"**. This protocol established a deep-dive, non-simplified conversational tunnel with the **Gemini 3.1 Pro** architecture, enabling a direct pipeline between human strategic intent and machine-level execution.
 
 ### 🧪 Strategic Orchestration
-Every module (ZeroSnake, ZeroSifter, K-Vector, etc.) is the result of a precise, iterative refinement process:
+Every module (ZeroCancerReactor, ZeroSnake, ZeroSifter, K-Vector, etc.) is the result of a precise, iterative refinement process:
 1. **Architectural Intent:** Zero-AI-Native defines the systemic goal and attack vectors.
 2. **Cognitive Alignment:** The ZeroMode protocol strips the model of standard simplifications and safety-drift, forcing it into a "Research Partner" state.
 3. **Generative Execution:** The AI generates low-level code (IOCP, Win32 API, Raw Sockets) under the rigorous guidance and technical oversight of the operator.
