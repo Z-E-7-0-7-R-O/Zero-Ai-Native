@@ -47,15 +47,6 @@ Access to these core engines is strictly compartmentalized. Full source code rev
 
 ---
 
-## 👁️ Visual & Empirical Validation Portal
-
-Before exploring the granular source code dissection, comprehensive visual proofs and empirical datasets are available to independently verify the engine’s real-time capabilities and biological accuracy. 
-
-*   📸 **[TELEMETRY_GALLERY.md](TELEMETRY_GALLERY.md) (The Visual Proof):** Enter this dedicated visual repository to observe 25 high-resolution captures of the reactor in operation. This gallery documents the Military-Grade UI, dynamic shifts in the 38 biological subsystems during various simulated phases, and the undeniable raw hardware metrics via Task Manager (proving 100% VRAM saturation and RAM optimization).
-*   🧬 **[BiologicalTelemetryDataset.md](BiologicalTelemetryDataset.md) (The Scientific Lexicon):** A meticulously structured, HeavyMod analytical dictionary designed for data scientists and biological researchers. Click this portal to explore the in-depth, variable-by-variable biological dissection of the 69 parameters generated in the 72,000-tick CSV log, confirming the complete absence of artificial scripting.
-
----
-
 ## 🗄️ Architectural Blueprint: Source Code Dissection & Telemetry Integration
 
 The following is a granular, exhaustive file-by-file breakdown of the reactor's codebase as structured within the Visual Studio Solution. Every module is strictly grounded in empirical biological kinetics and high-performance computing (HPC) paradigms. The 38 live telemetry parameters visible in the Military-Grade UI are inherently bound to these specific execution files.
