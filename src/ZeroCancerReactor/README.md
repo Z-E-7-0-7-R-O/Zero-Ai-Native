@@ -36,7 +36,7 @@ To ensure absolute Intellectual Property (IP) protection, prevent unauthorized c
 **The following foundational and interface modules are PUBLICLY ACCESSIBLE for immediate architectural review:**
 *   🔓 [`Cell.h`](Cell.h) (64-Byte Cache-Line aligned foundational struct defining autonomous agent states, telomere metrics, mutation loads, and epigenetic shielding)
 *   🔓 [`main.cpp`](main.cpp) (The genesis entry point executing the 70M-cell matrix instantiation and managing the primary asynchronous event-driven loop)
-*   🔓 [`CyberGraph.h`](CyberGraph.h)  [`CyberGraph.cpp`](CyberGraph.cpp) (Military-grade DirectX 11 / ImGui rendering engine ensuring zero-latency 60.0 FPS visual telemetry decoupled from the CUDA compute threads)
+*   🔓 [`CyberGraph.h`](CyberGraph.h)  [`CyberGraph.cpp`](CyberGraph.cpp) (Military-grade DirectX 11 / ImGui rendering engine ensuring zero-latency 60.0 FPS visual telemetry decoupled from the CUDA compute threads. Beyond visual rendering, it functions as the central **Command and Control Room**, actively managing dynamic simulation phases, calculating exact antigen integration refractory periods, executing autonomous Z-Tumor injection protocols (Phoenix Super-Bolus), and triggering systemic biological overrides based on real-time telomere degradation velocities.)
 *   🔓 [`BioTerminal.h`](BioTerminal.h)  [`BioTerminal.cpp`](BioTerminal.cpp) (Thread-safe, asynchronous cybernetic uplink logging system for real-time biological event reporting without memory bottlenecks)
 
 **Integrity & Authenticity Declaration:**
