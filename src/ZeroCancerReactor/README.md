@@ -33,6 +33,12 @@ To ensure absolute Intellectual Property (IP) protection, prevent unauthorized c
 *   🔒 `TelomeraseExploit` (Z-Tumor Chrono-Anchor & Bolus Deployment)
 *   🔒 `SentinelGuard` (Automated Immune Orchestration & Evasion Logic)
 
+**The following foundational and interface modules are PUBLICLY ACCESSIBLE for immediate architectural review:**
+*   🔓 [`Cell.h`](Cell.h) (64-Byte Cache-Line aligned foundational struct defining autonomous agent states, telomere metrics, mutation loads, and epigenetic shielding)
+*   🔓 [`main.cpp`](main.cpp) (The genesis entry point executing the 70M-cell matrix instantiation and managing the primary asynchronous event-driven loop)
+*   🔓 [`CyberGraph.h`](CyberGraph.h) & 🔓 [`CyberGraph.cpp`](CyberGraph.cpp) (Military-grade DirectX 11 / ImGui rendering engine ensuring zero-latency 60.0 FPS visual telemetry decoupled from the CUDA compute threads)
+*   🔓 [`BioTerminal.h`](BioTerminal.h) & 🔓 [`BioTerminal.cpp`](BioTerminal.cpp) (Thread-safe, asynchronous cybernetic uplink logging system for real-time biological event reporting without memory bottlenecks)
+
 **Integrity & Authenticity Declaration:**
 Let it be unequivocally stated: Every single biological mechanism, hormonal cascade, cytokine network, and effector pathway detailed in the architectural blueprint below exists fully implemented and operational within these classified modules. 
 There are **absolutely NO "fake IF statements"**, no scripted illusions, and no artificial shortcuts utilized to force the simulation's stability. The entire 70-million cell matrix is driven by raw, unadulterated mathematical biology, stochastic Gaussian distribution, and empirical biophysics. The emergent behaviors you see in the UI and log data are the authentic, calculated results of millions of independent agents interacting in real-time.
