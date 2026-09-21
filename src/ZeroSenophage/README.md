@@ -1,4 +1,5 @@
-### ZeroSenophage: GPU-Accelerated Thermodynamic Kinematics & Genomic Senolytic Simulator
+# ZeroSenophage: GPU-Accelerated Thermodynamic Kinematics & Genomic Senolytic Simulator
+
 <div align="center">
 <i>A CUDA C++ computational framework for simulating time-dependent cellular dynamics, macromolecular genomic damage, and tumor microenvironment equilibrium.</i>
 <br><br>
@@ -9,8 +10,7 @@
 
 --------------------------------------------------------------------------------
 
-#### Overview
-
+## Overview
 ZeroSenophage is a GPU-accelerated computational biophysics engine designed to model time-dependent cell kinetics, fluid dynamics, biochemical gradient transport, macromolecular genomic mutations, and autonomous senolytic phagocytosis within a simulated tissue microenvironment. The simulator operates on a 2D 1024 × 1024 continuum matrix domain (1 voxel = 1 μm) containing three distinct cellular populations: hypertrophic senescent cells ("zombie cells"), engineered senolytic agents ("senophages"), and resident scavenger macrophages.
 
 Rather than utilizing pre-scripted state transitions, ZeroSenophage evaluates cellular dynamics via coupled physical solvers and stochastic CUDA kernels:
@@ -22,16 +22,16 @@ Rather than utilizing pre-scripted state transitions, ZeroSenophage evaluates ce
 6. **Thermodynamic Mutagenesis & PARP-1 Repair:** Evaluates Michaelis-Menten ROS oxidative bit-flipping and ATP-dependent PARP-1 single-base restoration, tracking exact locus mutation hits.
 7. **DirectX 11 Raymarching Microscope:** Renders sub-pixel physical optics, phase-contrast halos, SNARF-4F ratiometric pH fluorophores, Alexa Fluor 488 8-oxo-dG damage emissions, and bitwise permutation spatial hashing to eliminate Moiré artifacts.
 
-##### Scale & Hardware Specifications
+### Scale & Hardware Specifications
 The simulation is engineered to process up to 34,359,738,368 base pairs across a 1024 × 1024 continuum matrix per tick. All chemical gradient evaluations, cellular kinetics, and genomic mutation scans are executed on the GPU. The architecture has been optimized to run within the constraints of consumer-grade hardware, specifically deployed and tested on an **NVIDIA GeForce RTX 3060 (12GB VRAM)**. Performance stability (60.0 FPS UI rendering) is maintained by 64-bit VRAM memory structures, 2-bit nucleotide bit-packing, and decoupling CUDA compute kernels from the DirectX 11 rendering thread using asynchronous streams (`cudaStreamCreateWithFlags`).
 
 --------------------------------------------------------------------------------
 
-#### Technical Details / Architecture
+## Technical Details / Architecture
 
 All core mathematical models, CUDA execution kernels, biophysical solvers, and shader payloads are open for technical audit and verification.
 
-##### Senophage Dual Mechanism: Senolytic Clearance & Pre-Neoplastic Interception
+### Senophage Dual Mechanism: Senolytic Clearance & Pre-Neoplastic Interception
 
 The engineered senolytic agent ("senophage") operates via a dual-action therapeutic paradigm within the simulated continuum microenvironment:
 
@@ -111,7 +111,7 @@ The engineered senolytic agent ("senophage") operates via a dual-action therapeu
 
 --------------------------------------------------------------------------------
 
-#### Visual & Empirical Validation Portal
+## Visual & Empirical Validation Portal
 
 Comprehensive visual archives, empirical telemetry dictionaries, and peer-reviewed scientific literature foundations are available to verify the simulation engine:
 
@@ -121,7 +121,7 @@ Comprehensive visual archives, empirical telemetry dictionaries, and peer-review
 
 --------------------------------------------------------------------------------
 
-#### Current Status
+## Current Status
 
 The ZeroSenophage simulation engine is operational and demonstrates the following functional capabilities:
 
@@ -132,7 +132,7 @@ The ZeroSenophage simulation engine is operational and demonstrates the followin
 
 --------------------------------------------------------------------------------
 
-#### Assumptions & Limitations
+## Assumptions & Limitations
 
 1. **Spatial Dimension Abstraction:** The simulation matrix is restricted to a 2D 1024 × 1024 continuum domain (1 voxel = 1 μm). This simplifies 3D extracellular matrix architecture, tissue vascularization, and volumetric fluid transport.
 2. **Temporal Discretization:** The simulation maps 1 compute epoch (tick) to 1 biological second (Δt = 1/60 s per physics frame). Real-world biological processes (e.g., cell division vs. receptor phosphorylation) span vastly different time scales, which are normalized here via parameterized scalars.
@@ -143,7 +143,7 @@ The ZeroSenophage simulation engine is operational and demonstrates the followin
 
 --------------------------------------------------------------------------------
 
-#### Usage / Requirements
+## Usage / Requirements
 
 **Hardware Requirements:**
 * **GPU:** NVIDIA GPU with CUDA Compute Capability 7.0 or higher (e.g., RTX 3060 12GB VRAM or better).
