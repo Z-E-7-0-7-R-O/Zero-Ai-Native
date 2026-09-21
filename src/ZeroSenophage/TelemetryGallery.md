@@ -6,7 +6,6 @@ This archive contains the visual documentation of the **ZeroSenophage** GPU-acce
 
 ### Photo #1 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-1.png" width="900">
-<br>
 
 ### Photo #2 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-2.png" width="900">
