@@ -1,8 +1,8 @@
-### ZeroSenophage: Operational Telemetry & Performance Gallery
+# ZeroSenophage: Operational Telemetry & Performance Gallery
 
 This archive contains the visual documentation of the **ZeroSenophage** GPU-accelerated thermodynamic kinematics and senolytic simulator during live execution. The following captures document the real-time DirectX 11 optical microscope interface, HLSL raymarching shader payloads, phase-contrast microscopy halos, SNARF-4F ratiometric pH fluorophore shifts, Alexa Fluor 488 8-oxo-dG DNA damage emissions, 89-metric telemetry visualization dashboards, and hardware utilization metrics (RTX 3060 12GB VRAM), demonstrating 60 Hz frame-paced optical rendering and multi-stream CUDA biophysics performance.
 
---------------------------------------------------------------------------------
+---
 
 ### Photo #1 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-1.png" width="900">
