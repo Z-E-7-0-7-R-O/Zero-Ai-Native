@@ -1,4 +1,4 @@
-# ZeroSenophage: GPU-Accelerated Thermodynamic Kinematics & Genomic Senolytic Simulator
+### ZeroSenophage: GPU-Accelerated Thermodynamic Kinematics & Genomic Senolytic Simulator
 
 <div align="center">
 <i>A CUDA C++ computational framework for simulating time-dependent cellular dynamics, macromolecular genomic damage, and tumor microenvironment equilibrium.</i>
