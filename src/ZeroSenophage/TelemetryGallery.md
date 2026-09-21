@@ -63,3 +63,17 @@ This archive contains the visual documentation of the **ZeroSenophage** GPU-acce
 
 ### Photo #20 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-20.png" width="900">
+
+### Photo #21 from ZeroSenophage
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-21.png" width="900">
+
+### Photo #22 from ZeroSenophage
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-22.png" width="900">
+
+### Photo #23 from ZeroSenophage
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-23.png" width="900">
+
+### Photo #24 from ZeroSenophage
+<img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-24.png" width="900">
+
+
