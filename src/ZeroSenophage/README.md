@@ -1,5 +1,4 @@
 # ZeroSenophage: GPU-Accelerated Thermodynamic Kinetics
-
 <div align="center">
   <strong>Genomic Senolytic Simulator</strong>
 </div>
