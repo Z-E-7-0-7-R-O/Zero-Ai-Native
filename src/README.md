@@ -34,9 +34,9 @@ The iterative generation, debugging, and logic synthesis cycles are documented w
 
 ---
 
-#### Internal Modules & Architecture
+## Internal Modules & Architecture
 
-##### [ZeroSenophage](ZeroSenophage)
+### [ZeroSenophage](ZeroSenophage)
 **Role:** GPU-Accelerated Thermodynamic Kinematics & Genomic Senolytic Simulator
 **Technical Stack:** CUDA C++ / DirectX 11 / Computational Biophysics
 **Architectural Highlights:**
