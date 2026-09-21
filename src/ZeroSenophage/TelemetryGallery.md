@@ -9,76 +9,57 @@ This archive contains the visual documentation of the **ZeroSenophage** GPU-acce
 
 ### Photo #2 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-2.png" width="900">
-<br><br><br>
 
 ### Photo #3 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-3.png" width="900">
-<br><br><br>
 
 ### Photo #4 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-4.png" width="900">
-<br><br><br>
 
 ### Photo #5 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-5.png" width="900">
-<br><br><br>
 
 ### Photo #6 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-6.png" width="900">
-<br><br><br>
 
 ### Photo #7 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-7.png" width="900">
-<br><br><br>
 
 ### Photo #8 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-8.png" width="900">
-<br><br><br>
 
 ### Photo #9 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-9.png" width="900">
-<br><br><br>
 
 ### Photo #10 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-10.png" width="900">
-<br><br><br>
 
 ### Photo #11 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-11.png" width="900">
-<br><br><br>
 
 ### Photo #12 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-12.png" width="900">
-<br><br><br>
 
 ### Photo #13 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-13.png" width="900">
-<br><br><br>
 
 ### Photo #14 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-14.png" width="900">
-<br><br><br>
 
 ### Photo #15 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-15.png" width="900">
-<br><br><br>
 
 ### Photo #16 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-16.png" width="900">
-<br><br><br>
 
 ### Photo #17 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-17.png" width="900">
-<br><br><br>
 
 ### Photo #18 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-18.png" width="900">
-<br><br><br>
 
 ### Photo #19 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-19.png" width="900">
-<br><br><br>
 
 ### Photo #20 from ZeroSenophage
 <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-20.png" width="900">
-<br><br><br>
