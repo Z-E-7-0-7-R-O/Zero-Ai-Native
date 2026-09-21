@@ -1,4 +1,4 @@
-# Zero Cancer Reactor: GPU-Accelerated 70M-Cell TME Simulator
+# ZeroCancerReactor: GPU-Accelerated 70M-Cell TME Simulator
 
 <div align="center">
   <i>A computational framework for simulating time-dependent cellular dynamics and tumor microenvironment equilibrium.</i>
