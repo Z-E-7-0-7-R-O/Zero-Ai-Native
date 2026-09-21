@@ -1,5 +1,5 @@
 <h1 align="center">
-  ZeroSenophage: GPU-Accelerated Thermodynamic Kinetics<br>
+  ZeroSenophage: GPU-Accelerated Thermodynamic & Kinetics<br>
   Genomic Senolytic Simulator
 </h1>
 
