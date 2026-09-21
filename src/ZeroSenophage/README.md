@@ -1,42 +1,26 @@
 ### ZeroSenophage: GPU-Accelerated Thermodynamic Kinematics & Genomic Senolytic Simulator
 <div align="center">
-  <i>A computational framework for simulating time-dependent cellular dynamics and tumor microenvironment equilibrium.</i>
-  <br><br>
-  <b>Developer:</b> Zero-AI-Native (Age 15, assisted by Google Gemini 3.1 Pro) <br>
-  <b>Architecture:</b> CUDA C++ / DirectX 11 / Computational Biophysics<br>
-  <b>Status:</b> Concept / Simulation Deployed
+<i>A CUDA C++ computational framework for simulating thermodynamic cell kinetics, macromolecular genomic damage, and senolytic phagocytosis dynamics in a continuum tissue microenvironment.</i>
+<br><br>
+<b>Developer:</b> Zero-AI-Native (Age 15, assisted by Google Gemini 3.1 Pro) <br>
+<b>Architecture:</b> CUDA C++ / DirectX 11 / Computational Biophysics<br>
+<b>Status:</b> Concept / Simulation Deployed
 </div>
 
 --------------------------------------------------------------------------------
 
 #### Overview
 
-ZeroSenophage is a GPU-accelerated computational biophysics engine designed to model time-dependent cell kinetics, fluid dynamics, biochemical gradient transport, macromolecular genomic mutations, and autonomous senolytic phagocytosis within a simulated tissue microenvironment. The simulator operates on a 2D $1024 \times 1024$ continuum matrix domain ($1\ \text{voxel} = 1\ \mu\text{m}$) containing three distinct cellular populations: hypertrophic senescent cells ("zombie cells"), engineered senolytic agents ("senophages"), and resident scavenger macrophages.
+ZeroSenophage is a GPU-accelerated computational biophysics engine designed to model time-dependent cell kinetics, fluid dynamics, biochemical gradient transport, macromolecular genomic mutations, and autonomous senolytic phagocytosis within a simulated tissue microenvironment. The simulator operates on a 2D 1024 × 1024 continuum matrix domain ($1\ \text{voxel} = 1\ \mu\text{m}$) containing three distinct cellular populations: hypertrophic senescent cells ("zombie cells"), engineered senolytic agents ("senophages"), and resident scavenger macrophages.
 
 Rather than utilizing pre-scripted state transitions, ZeroSenophage evaluates cellular dynamics via coupled physical solvers and stochastic CUDA kernels:
-1. **Lattice Boltzmann Plasma Hydrodynamics (D2Q9 BGK Model):** Simulates interstitial fluid advection and kinematic viscosity ($\tau = 0.8$) at $37^\circ\text{C}$.
+1. **Lattice Boltzmann Plasma Hydrodynamics (D2Q9 BGK Model):** Simulates interstitial fluid advection and kinematic viscosity (τ = 0.8) at $37^\circ\text{C}$.
 2. **PDE Reaction-Diffusion Fields:** Solves 2D partial differential equations for Senescence-Associated Secretory Phenotype (SASP) cytokines and extracellular ATP gradients using 9-point Laplacian stencils and sub-pixel advection.
 3. **Autonomous Kinematics & Efferotabolism:** Models agent motility via Lévy walk foraging trajectories, Hebbian neural drive, actin protrusive thrust, CD47-SIRPα signaling inhibition, trogoptosis, macropinocytosis, fatty acid $\beta$-oxidation, ABCA1 cholesterol efflux, and lipotoxicity ER stress.
 4. **Macromolecular 64-Bit VRAM Genomics:** Allocates 8.59 GB of VRAM storing $34,359,738,368$ total base pairs ($104,120,416$ bp per agent across 330 initial agents) using 2-bit nucleotide packing (16 bp per `uint32_t` word).
-5. **Central Dogma & Epigenetics:** Simulates continuous promoter DNA methylation weights ($[0.0, 1.0]$) and Exponential Moving Average (EMA) protein translation/degradation kinetics for $ACTB$, $CD47$, $SIRPA$, $P2RY2$, and $ABCA1$ loci.
+5. **Central Dogma & Epigenetics:** Simulates continuous promoter DNA methylation weights ($[0.0, 1.0]$) and Exponential Moving Average (EMA) protein translation/degradation kinetics for `ACTB`, `CD47`, `SIRPA`, `P2RY2`, and `ABCA1` loci.
 6. **Thermodynamic Mutagenesis & PARP-1 Repair:** Evaluates Michaelis-Menten ROS oxidative bit-flipping and ATP-dependent PARP-1 single-base restoration, tracking exact locus mutation hits.
 7. **DirectX 11 Raymarching Microscope:** Renders sub-pixel physical optics, phase-contrast halos, SNARF-4F ratiometric pH fluorophores, Alexa Fluor 488 $8\text{-oxo-dG}$ damage emissions, and bitwise permutation spatial hashing to eliminate Moiré artifacts.
-
---------------------------------------------------------------------------------
-
-#### Senophage Dual Mechanism & Pre-Neoplastic Interception Barrier
-
-In computational oncology and biophysics, senescent cells are recognized not merely as inert, non-dividing "zombie cells," but as active drivers of tissue microenvironment degradation. Persistent senescent cells continuously secrete a complex cocktail of pro-inflammatory cytokines, chemokines, extracellular matrix-degrading proteases, and reactive oxygen species (ROS)—collectively termed the Senescence-Associated Secretory Phenotype (SASP). 
-
-Chronic SASP exposure induces paracrine senescence (bystander senescence) in healthy adjacent cells and creates a highly genotoxic microenvironment. The sustained ROS bombardment induces double-strand DNA breaks, base modifications, and oncogenic mutation accumulation (such as mutations in $CD47$ repressor loci), eventually driving pre-neoplastic cellular transformation and tumorigenesis.
-
-The engineered **Senophage** agents in ZeroSenophage operate through a dual therapeutic mechanism:
-
-1. **Senolytic Clearance & Phagocytic Engagement:**
-   Under baseline physiological conditions, senescent cells upregulate the CD47 "don't eat me" surface protein, which binds the SIRPα receptor on wild-type macrophages and inhibits actomyosin cup formation. Engineered Senophages feature an absolute epigenetic knockout of the $SIRPA$ gene (`sirpa_weight = 0.0f`), rendering them immune to CD47 evasion signals. Upon locating senescent targets via SASP gradient sensing, Senophages execute cooperative swarming, trogocytosis membrane nibbling, and trogoptosis acceleration to clear senescent tissue mass.
-
-2. **Pre-Neoplastic Interception Barrier:**
-   By aggressively engulfing senescent cells early in their hypertrophic phase, Senophages eliminate the primary biochemical source of paracrine SASP and ROS bombardment. By suppressing the local ROS flux below the Michaelis-Menten genotoxicity saturation threshold ($K_m = 2500.0$), Senophages prevent bystander DNA mutation accumulation in neighboring healthy cells. This intercepts tumorigenesis at the pre-neoplastic stage, neutralizing the microenvironmental driver of cancer before neoplastic transformation occurs.
 
 --------------------------------------------------------------------------------
 
@@ -48,7 +32,7 @@ All core mathematical models, CUDA execution kernels, biophysical solvers, and s
 
 * **[Zero.Nucleus.cpp](Zero.Nucleus.cpp)**
   * **Role:** Application Entry Point & High-Precision System Lifecycle Manager.
-  * **Implementation:** Overrides OS display scaling using `SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)` to enforce 1:1 hardware pixel mapping and eradicate DWM bilinear stretching. Manages window creation (`AdjustWindowRect` for $1024 \times 1024$ client area) and spawns a dedicated high-priority physics thread (`ThermodynamicComputeThread`). Implements death-spiral accumulator clamping (`max_accumulator_threshold = 3 * dt`) to prevent physics stalls upon OS wake, and executes hybrid spin-yield pacing to lock optical rendering strictly to 60 Hz.
+  * **Implementation:** Overrides OS display scaling using `SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)` to enforce 1:1 hardware pixel mapping and eradicate DWM bilinear stretching. Manages window creation (`AdjustWindowRect` for 1024 × 1024 client area) and spawns a dedicated high-priority physics thread (`ThermodynamicComputeThread`). Implements death-spiral accumulator clamping (`max_accumulator_threshold = 3 * dt`) to prevent physics stalls upon OS wake, and executes hybrid spin-yield pacing to lock optical rendering strictly to 60 Hz.
 
 * **[Matrix.Orchestrator.h](Matrix.Orchestrator.h) | [Matrix.Orchestrator.cpp](Matrix.Orchestrator.cpp)**
   * **Role:** Asynchronous Subsystem Orchestrator & Multi-Stream CUDA Pipeline Manager.
@@ -60,7 +44,7 @@ All core mathematical models, CUDA execution kernels, biophysical solvers, and s
     * `Tissue_Secretion_Kernel`: Evaluates local senophage/scavenger densities, CD47-SIRPα inhibitory receptor shielding, cooperative swarming synergy, phagocytic cup formation, macropinocytosis, trogocytosis nibbling, trogoptosis secondary necrosis acceleration, and in-situ stochastic cell turnover using PCG hashing (`Generate_PCG_Hash`).
     * `Senescent_Tissue_Kinematics_Kernel`: Simulates senescent cell evasion vectors derived from density gradients and persistent random walk (PRW) motility.
     * `Read_Olfactory_Sensors_Kernel`: Processes 8-directional SASP concentration sampling with receptor desensitization (fatigue accumulation), lateral inhibition, and P2RY2 receptor expression scaling.
-    * `Autonomous_Agent_Kinematics_Kernel`: Executes 256-thread-per-agent block reductions. Calculates steric inter-agent repulsion, Lévy walk heavy-tailed stochastic search steps (`clamped_levy`), actin protrusive thrust vectors scaled by $ACTB$ protein levels, Hebbian motor drive, drag reduction upon integrin target commitment, fatty acid $\beta$-oxidation ATP regeneration, ABCA1 cholesterol efflux pumping, lipotoxicity ER stress (Hill function), starvation autophagy energy reserve, and Peskin immersed-boundary fluid force injection (`ext_fx`, `ext_fy`).
+    * `Autonomous_Agent_Kinematics_Kernel`: Executes 256-thread-per-agent block reductions. Calculates steric inter-agent repulsion, Lévy walk heavy-tailed stochastic search steps (`clamped_levy`), actin protrusive thrust vectors scaled by `ACTB` protein levels, Hebbian motor drive, drag reduction upon integrin target commitment, fatty acid $\beta$-oxidation ATP regeneration, ABCA1 cholesterol efflux pumping, lipotoxicity ER stress (Hill function), starvation autophagy energy reserve, and Peskin immersed-boundary fluid force injection (`ext_fx`, `ext_fy`).
 
 * **[Lattice.Boltzmann.Plasma.cuh](Lattice.Boltzmann.Plasma.cuh) | [Lattice.Boltzmann.Plasma.cu](Lattice.Boltzmann.Plasma.cu)**
   * **Role:** Interstitial Plasma Computational Fluid Dynamics (CFD) Environment.
@@ -72,19 +56,19 @@ All core mathematical models, CUDA execution kernels, biophysical solvers, and s
 
 * **[Macromolecular.Genomic.Allocation.cuh](Macromolecular.Genomic.Allocation.cuh) | [Macromolecular.Genomic.Allocation.cu](Macromolecular.Genomic.Allocation.cu)**
   * **Role:** 64-Bit VRAM Macromolecular Genomic Storage Manager.
-  * **Implementation:** Allocates $2,147,483,580$ `uint32_t` words (~8.59 GB VRAM) storing $34,359,738,368$ total base pairs across the ecosystem ($104,120,416$ bp per agent across 330 initial agents). Employs 2-bit nucleotide bit-packing (16 base pairs per `uint32_t` word). Executes `Stochastic_Heterochromatin_Seeding_Kernel` for background heterochromatin initialization and `WildType_CodingSequence_Implantation_Kernel` to write wild-type stability patterns (`0xAAAAAAAA`) at specific loci ($ACTB$, $CD47$, $CD47\text{\_REPRESSOR}$, $SIRPA$, $P2RY2$, $ABCA1$).
+  * **Implementation:** Allocates $2,147,483,580$ `uint32_t` words (~8.59 GB VRAM) storing $34,359,738,368$ total base pairs across the ecosystem ($104,120,416$ bp per agent across 330 initial agents). Employs 2-bit nucleotide bit-packing (16 base pairs per `uint32_t` word). Executes `Stochastic_Heterochromatin_Seeding_Kernel` for background heterochromatin initialization and `WildType_CodingSequence_Implantation_Kernel` to write wild-type stability patterns (`0xAAAAAAAA`) at specific loci (`ACTB`, `CD47`, $CD47\text{\_REPRESSOR}$, `SIRPA`, `P2RY2`, `ABCA1`).
 
 * **[Epigenetic.Promoter.Indexing.cuh](Epigenetic.Promoter.Indexing.cuh) | [Epigenetic.Promoter.Indexing.cu](Epigenetic.Promoter.Indexing.cu)**
   * **Role:** Epigenetic Methylome Indexing & Promoter Access Control.
-  * **Implementation:** Maintains continuous float arrays (`d_epigenetic_weight_ACTB`, `d_epigenetic_weight_CD47`, `d_epigenetic_weight_SIRPA`, `d_epigenetic_weight_P2RY2`, `d_epigenetic_weight_ABCA1`) representing promoter access weights ($[0.0, 1.0]$). Initializes cell-type specific methylomes: fully opens $CD47$ in senescent cells while methylating receptors; executes genetic/epigenetic knockout of $SIRPA$ in senophages to prevent CD47-mediated evasion; and opens $P2RY2$ and $ABCA1$ euchromatin in scavenger macrophages.
+  * **Implementation:** Maintains continuous float arrays (`d_epigenetic_weight_ACTB`, `d_epigenetic_weight_CD47`, `d_epigenetic_weight_SIRPA`, `d_epigenetic_weight_P2RY2`, `d_epigenetic_weight_ABCA1`) representing promoter access weights ($[0.0, 1.0]$). Initializes cell-type specific methylomes: fully opens `CD47` in senescent cells while methylating receptors; executes genetic/epigenetic knockout of `SIRPA` in senophages to prevent CD47-mediated evasion; and opens `P2RY2` and `ABCA1` euchromatin in scavenger macrophages.
 
 * **[Proteomic.Expression.State.cuh](Proteomic.Expression.State.cuh) | [Proteomic.Expression.State.cu](Proteomic.Expression.State.cu)**
   * **Role:** Proteomic Expression Tensor Storage & Buffer Management.
-  * **Implementation:** Manages double-buffered current ($T$) and next ($T+1$) float tensors for protein expression levels of $ACTB$, $CD47$, $SIRPA$, $P2RY2$, and $ABCA1$. Executes zero-cost GPU pointer swapping (`SwapStates`) to bypass VRAM copy bandwidth overhead.
+  * **Implementation:** Manages double-buffered current ($T$) and next ($T+1$) float tensors for protein expression levels of `ACTB`, `CD47`, `SIRPA`, `P2RY2`, and `ABCA1`. Executes zero-cost GPU pointer swapping (`SwapStates`) to bypass VRAM copy bandwidth overhead.
 
 * **[Central.Dogma.Transcription.cuh](Central.Dogma.Transcription.cuh) | [Central.Dogma.Transcription.cu](Central.Dogma.Transcription.cu)**
   * **Role:** Central Dogma Transcription & Translation Elongation Engine.
-  * **Implementation:** Executes `Genomic_Translation_Kernel` using Exponential Moving Average (EMA) kinetics (translation elongation rate $0.05$, proteasomal degradation $0.95$). Calculates thermodynamic protein fitness (`Calculate_Thermodynamic_Protein_Fitness`) by evaluating Hamming distance bit-mismatches across locus words relative to wild-type anchors. Simulates oncogenic $CD47$ overexpression when repressor locus mutations disrupt transcriptional silencing.
+  * **Implementation:** Executes `Genomic_Translation_Kernel` using Exponential Moving Average (EMA) kinetics (translation elongation rate $0.05$, proteasomal degradation $0.95$). Calculates thermodynamic protein fitness (`Calculate_Thermodynamic_Protein_Fitness`) by evaluating Hamming distance bit-mismatches across locus words relative to wild-type anchors. Simulates oncogenic `CD47` overexpression when repressor locus mutations disrupt transcriptional silencing.
 
 * **[Stochastic.Mutagenesis.Kinematics.cuh](Stochastic.Mutagenesis.Kinematics.cuh) | [Stochastic.Mutagenesis.Kinematics.cu](Stochastic.Mutagenesis.Kinematics.cu)**
   * **Role:** Thermodynamic Genotoxicity & Oxidative Mutagenesis Engine.
@@ -96,7 +80,7 @@ All core mathematical models, CUDA execution kernels, biophysical solvers, and s
 
 * **[Thermodynamic.Neural.Network.cuh](Thermodynamic.Neural.Network.cuh) | [Thermodynamic.Neural.Network.cu](Thermodynamic.Neural.Network.cu)**
   * **Role:** Sensorimotor Neural Lattice & Hebbian Plasticity Engine.
-  * **Implementation:** Manages an $8 \to 2$ sensorimotor neural network evaluated via cuBLAS matrix multiplication (`cublasSgemm`) and hyperbolic tangent activation (`Activation_Tanh_Batch_Kernel`). Executes Hebbian synaptic learning (`Hebbian_Plasticity_Kernel`) reinforced by net ATP change gradients, homeostatic synaptic decay (`Entropy_Decay_Kernel`), and spontaneous mEPSP miniature vesicle release noise.
+  * **Implementation:** Manages an 8 → 2 sensorimotor neural network evaluated via cuBLAS matrix multiplication (`cublasSgemm`) and hyperbolic tangent activation (`Activation_Tanh_Batch_Kernel`). Executes Hebbian synaptic learning (`Hebbian_Plasticity_Kernel`) reinforced by net ATP change gradients, homeostatic synaptic decay (`Entropy_Decay_Kernel`), and spontaneous mEPSP miniature vesicle release noise.
 
 * **[Biophysical.Telemetry.Spooler.cuh](Biophysical.Telemetry.Spooler.cuh) | [Biophysical.Telemetry.Spooler.cu](Biophysical.Telemetry.Spooler.cu)**
   * **Role:** Asynchronous Telemetry Logger & Ring Buffer Disk Spooler.
@@ -108,64 +92,67 @@ All core mathematical models, CUDA execution kernels, biophysical solvers, and s
 
 * **[Biochemical.Constants.h](Biochemical.Constants.h)**
   * **Role:** Central Biophysical Constants & Parameter Registry.
-  * **Implementation:** Header file defining domain dimensions ($1024 \times 1024$), plasma relaxation constants (`PLASMA_TAU = 0.8f`), drag coefficients, Gaussian morphological variances ($\sigma = 3.5\ \mu\text{m}$ for macrophages, $\sigma = 4.5\ \mu\text{m}$ for senescent cells), genomic locus offsets, central dogma epoch durations, Michaelis-Menten kinetic thresholds, and PARP repair constants.
+  * **Implementation:** Header file defining domain dimensions (1024 × 1024), plasma relaxation constants (`PLASMA_TAU = 0.8f`), drag coefficients, Gaussian morphological variances ($\sigma = 3.5\ \mu\text{m}$ for macrophages, $\sigma = 4.5\ \mu\text{m}$ for senescent cells), genomic locus offsets, central dogma epoch durations, Michaelis-Menten kinetic thresholds, and PARP repair constants.
 
 * **[Spatial.Optical.Integration.cuh](Spatial.Optical.Integration.cuh) | [Spatial.Optical.Integration.cu](Spatial.Optical.Integration.cu)**
   * **Role:** Spatial Density Projection & Optical Field Rasterization.
-  * **Implementation:** Provides GPU wrappers (`ExecuteSpatialDensityProjection`, `SplatBiochemicalState`, `IntegrateOpticalFields`, `IntegrateOpticalBiochemicalFields`) to project discrete agent positions, $CD47$ protein expression, and genomic mutation counts onto continuous 2D spatial grids using Gaussian splatting algorithms.
+  * **Implementation:** Provides GPU wrappers (`ExecuteSpatialDensityProjection`, `SplatBiochemicalState`, `IntegrateOpticalFields`, `IntegrateOpticalBiochemicalFields`) to project discrete agent positions, `CD47` protein expression, and genomic mutation counts onto continuous 2D spatial grids using Gaussian splatting algorithms.
 
 --------------------------------------------------------------------------------
 
 #### Visual & Empirical Validation Portal
 
-Comprehensive visual data, peer-reviewed literature mappings, and empirical datasets are provided to verify the engine's biophysical models, GPU execution stability, and optical shader accuracy.
+Comprehensive visual archives, empirical telemetry dictionaries, and peer-reviewed scientific literature foundations are available to verify the simulation engine:
 
-* **[ScientificArticlesUsedInZeroSenophage-EN.md](ScientificArticlesUsedInZeroSenophage-EN.md):**  
-  A dedicated peer-reviewed scientific literature directory documenting the **86 academic articles** (from PubMed, PMC, and DOI databases) utilized to ground and calibrate the biophysical constants of ZeroSenophage. This includes empirical velocity ranges ($0.78 \text{ to } 1.02\ \mu\text{m/min}$ for macrophages, $1.6\ \mu\text{m/min}$ for senescent cells), cytokine diffusion coefficients ($10 - 15\ \mu\text{m}^2\text{/s}$), plasma kinematic viscosity at $37^\circ\text{C}$ ($\tau = 0.8$), CD47-SIRPα phagocytic cup inhibition, and SNARF-4F/Alexa Fluor 488 optical emission spectra.
-
-* **[TelemetryGallery](TelemetryGallery.md):**  
-  A visual repository containing high-resolution captures of the DirectX 11 optical raymarching microscope during operation, documenting system state transitions across tracked biophysical variables, phase-contrast halos, SNARF-4F pH ratiometric shifts, and GPU hardware utilization.
-
-* **[BiologicalTelemetryDataset](BiologicalTelemetryDataset.md):**  
-  An analytical dictionary and data specification for the **89-column CSV telemetry output** generated asynchronously by `AsynchronousTelemetrySpooler`. Details all recorded parameters including dual-chronology timestamps, active genomic pool sizes, PARP-1 repair tax, FAO ATP yields, and WDDM memory eviction penalties.
+* **[TelemetryGallery.md](TelemetryGallery.md):** A visual repository documenting high-resolution captures of the DirectX 11 optical microscope interface, HLSL shader renderings, pH SNARF-4F ratiometric shifts, and 89-metric telemetry visualization dashboards.
+* **[BiologicalTelemetryDataset.md](BiologicalTelemetryDataset.md):** An analytical data dictionary for the 89-column telemetry output generated by the `AsynchronousTelemetrySpooler`, detailing physical, biological, genomic, and hardware performance metrics across simulation ticks.
+* **[ScientificArticlesUsedInZeroSenophage-EN.md](ScientificArticlesUsedInZeroSenophage-EN.md):** A foundational scientific literature mapping documenting the 86 peer-reviewed articles (indexed via PubMed, PMC, and DOI) that establish the empirical parameters, kinetic constants, and biological mechanisms implemented throughout the C++/CUDA simulation kernels.
 
 --------------------------------------------------------------------------------
 
 #### Current Status
 
-The ZeroSenophage simulator is fully operational in CUDA C++ / DirectX 11 environments. The physics compute thread (`ThermodynamicComputeThread`) and optical rendering loop run asynchronously without deadlock. The 5 non-blocking CUDA streams execute parallel pipeline stages, and the `AsynchronousTelemetrySpooler` streams 89 biophysical metrics per epoch to disk via a lock-free ring buffer without introducing UI latency or frame drops.
+The ZeroSenophage simulation engine is operational and demonstrates the following functional capabilities:
+* **Stable Dual-Thread Execution:** The physics compute loop and DirectX 11 optical rendering thread operate concurrently at 60 Hz without thread deadlocks or race conditions.
+* **Asynchronous Multi-Stream Pipeline:** Executes 5 non-blocking CUDA streams (`compute_stream_fluidics`, `compute_stream_biochemical`, `compute_stream_kinematics`, `compute_stream_genomics`, `compute_stream_telemetry`) coordinated via hardware event synchronization barriers.
+* **Decoupled Telemetry Recording:** Spools 89-column dual-chronology records to CSV at high frequency via lock-free ring buffer memory without inducing frame drops in the primary compute loop.
+* **Memory Bounds Verification:** Allocates and manages ~8.59 GB VRAM for macromolecular genomic sequences ($34,359,738,368$ base pairs) within consumer GPU VRAM limits (tested on RTX 3060 12GB).
 
 --------------------------------------------------------------------------------
 
 #### Assumptions & Limitations
 
-To evaluate this simulator within an engineering framework, the following technical abstractions and biological limitations must be explicitly noted:
+To evaluate this simulation framework objectively, the following engineering assumptions and biophysical limitations must be noted:
 
-1. **2D Spatial Dimension Limitation:**  The tissue continuum matrix is currently simulated on a 2D $1024 \times 1024$ voxel domain ($1\ \text{voxel} = 1\ \mu\text{m}$). While 2D toroidal boundary wrapping allows continuous flux, real-world tissue microenvironments operate in 3D viscoelastic extracellular matrix structures.
-2. **Temporal Mapping Equivalence:**  The simulator equates $1\ \text{epoch tick}$ to $1\ \text{second}$ of biological time. While physical transport equations (diffusion rates, viscosity) are calibrated to $37^\circ\text{C}$ per-second constants, long-term cellular turnover speeds are scaled by heuristic multipliers to accommodate GPU execution bounds.
-3. **2-Bit Nucleotide Bit-Packing Abstraction:**  Genomic storage compresses base pairs into 2-bit representations ($A=00, C=01, G=10, T=11$). While this enables $34.3+\text{ billion base pairs}$ to reside in 8.59 GB VRAM, it abstracts away complex 3D chromatin folding, histone tail modifications, and non-coding structural RNA loops.
-4. **Epigenetic Promoters as Continuous Floats:**  Promoter methylation state is represented as a continuous scalar $[0.0, 1.0]$. In biological systems, methylation involves discrete CpG island methylation patterns and histone acetylation kinetics.
-5. **Pseudo-Random Number Generators (PRNG):**  Stochastic events (mutagenesis bit-flips, Brownian forcing, Lévy walk angles) rely on PCG hash algorithms (`Generate_PCG_Hash`). While computationally efficient on CUDA architectures, PRNGs represent mathematical approximations of true biological quantum entropy.
+1. **Spatial Dimension Abstraction:** The simulation matrix is restricted to a 2D 1024 × 1024 continuum domain ($1\ \text{voxel} = 1\ \mu\text{m}$). This simplifies 3D extracellular matrix architecture, tissue vascularization, and volumetric fluid transport.
+2. **Temporal Discretization:** The simulation maps 1 compute epoch (tick) to 1 biological second ($\Delta t = 1/60\ \text{s}$ per physics frame). Real-world biological processes (e.g., cell division vs. receptor phosphorylation) span vastly different time scales, which are normalized here via parameterized scalars.
+3. **2D Fluid Dynamics Approximations:** Fluid hydrodynamics are solved using a 2D D2Q9 Lattice Boltzmann Method with single-relaxation-time BGK approximation (τ = 0.8). This assumes incompressible plasma flow under low Mach number conditions ($< 0.3 c_s$).
+4. **Genomic Bit-Packing Simplifications:** DNA sequences use 2-bit packing (16 base pairs per `uint32_t` word) compared against a static wild-type anchor (`0xAAAAAAAA`). Higher-order chromatin tertiary structure, histone acetylation, and complex RNA splicing are abstracted into continuous promoter access weights ($[0.0, 1.0]$).
+5. **Heuristic Rate Constants:** Kinetic parameters (e.g., Michaelis-Menten $V_{\max}$ and $K_m$ constants for ROS genotoxicity and PARP repair) are derived from scaled literature values rather than direct, real-time in-vitro measurements.
+6. **Pseudo-Random Generator Entropy:** Stochastic events rely on PCG hash algorithms (`Generate_PCG_Hash`) and cuRAND pseudo-random generators. While efficient for parallel GPU execution, these do not represent true quantum or thermal biological entropy.
 
 --------------------------------------------------------------------------------
 
-#### Usage / How to Run
+#### Usage / Requirements
 
-1. **System Requirements:**
-   * **OS:** Windows 10 / 11 64-bit.
-   * **GPU:** NVIDIA GPU with DirectX 11 support and Compute Capability 7.0+ (Tested on RTX 3060 12GB VRAM).
-   * **Compiler & Toolchain:** Microsoft Visual Studio 2022 (MSVC C++17), NVIDIA CUDA Toolkit 12.x, Windows SDK 10.0.
+**Hardware Requirements:**
+* **GPU:** NVIDIA GPU with CUDA Compute Capability 7.0 or higher (e.g., RTX 3060 12GB VRAM or better).
+* **RAM:** 16 GB System Memory.
+* **Architecture:** x64 Processor.
 
-2. **Compilation Steps:**
-   ```bash
-   # Open Visual Studio x64 Native Tools Command Prompt
-   # Compile CUDA kernels and C++ host code
-   nvcc -O3 -arch=sm_86 -std=c++17         Zero.Nucleus.cpp Matrix.Orchestrator.cpp SDF.Raymarch.Microscope.cpp         Autonomous.Senolytic.Population.cu Lattice.Boltzmann.Plasma.cu         Reaction.Diffusion.SASP.cu Macromolecular.Genomic.Allocation.cu         Epigenetic.Promoter.Indexing.cu Proteomic.Expression.State.cu         Central.Dogma.Transcription.cu Stochastic.Mutagenesis.Kinematics.cu         Genomic.Repair.PARP.cu Thermodynamic.Neural.Network.cu         Biophysical.Telemetry.Spooler.cu Spatial.Optical.Integration.cu         -o ZeroSenophage.exe         -lcudart -lcublas -lcurand -lnvml -ld3d11 -ld3dcompiler -ldxgi -luser32 -lgdi32
-   ```
+**Software Dependencies:**
+* **Operating System:** Windows 10 / Windows 11 (64-bit).
+* **Compiler & IDE:** Microsoft Visual Studio 2026 Community Edition (MSVC C++20 / ISO C++20 Standard).
+* **SDKs & Toolkits:** NVIDIA CUDA Toolkit v13.1 / v13.3, DirectX 11 SDK, Windows 10/11 SDK.
+* **Libraries:** `d3d11.lib`, `d3dcompiler.lib`, `dxgi.lib`, `cublas.lib`, `curand.lib`, `nvml.lib`.
 
-3. **Execution:**
-   ```bash
-   ./ZeroSenophage.exe
-   ```
+**Compilation & Build Instructions:**
+The project is configured and compiled as a native Visual Studio Solution (`ZeroSenophage.vcxproj`).
+
+1. **Open Solution:** Launch **Visual Studio 2026 Community Edition** and open `ZeroSenophage.sln` (or import `ZeroSenophage.vcxproj`).
+2. **Set Target Configuration:** Set build configuration to **Release** and platform to **x64**.
+3. **Rebuild Project:** Select **Build > Rebuild Solution** (or press `Ctrl+Shift+B`).
+   * Visual Studio invokes `nvcc.exe` (NVIDIA CUDA Toolkit v13.1 / v13.3) targeting compute architecture `sm_86` with fast-math optimizations (`--use_fast_math`, `-Xptxas -dlcm=cg`, `-std=c++20`).
+4. **Execution:** Run `ZeroSenophage.exe` generated in `x64/Release/ZeroSenophage.exe` or launch directly via **Local Windows Debugger** in Visual Studio.
 
 --------------------------------------------------------------------------------
