@@ -14,9 +14,14 @@ This directory contains the core implementation layer of the Zero-Ai-Native proj
 ### Development Context
 This software ecosystem—comprising C++, CUDA, and Python implementations—was developed by a 15-year-old operator utilizing the Gemini 3.1 Pro architecture. The code generation was orchestrated via a custom system prompt structure (referred to internally as "ZeroMode"), designed to bypass conversational simplifications and directly synthesize low-level execution models (IOCP, CUDA kernels, Win32API, and Raw Sockets) under operator guidance.
 
-### Conversational Logs & Verification
+##### Conversational Logs & Verification
 The iterative generation, debugging, and logic synthesis cycles are documented within Google AI Studio. These architectural logs record the iterative prompts and code outputs used to structure the modules. Access to the raw conversational history is available for technical auditing and verification by researchers or adjudicators.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/PhotoFromZeroSenophage-25.png" width="800">
+  <p><i>Figure: Sample log matrix for the ZeroSenophage module, illustrating consecutive prompt sessions and token utilization during the generation of the CUDA architecture and biological logic.</i></p>
+</div>
+<br>
 <div align="center">
   <img src="https://raw.githubusercontent.com/AmirGG11OP/Zero-Ai-Native/main/assets/Photo%20%2326%20from%20ZeroCancerReactor.png" width="800">
   <p><i>Figure: Sample log matrix for the ZeroCancerReactor module, illustrating consecutive prompt sessions and token utilization during the generation of the CUDA architecture and biological logic.</i></p>
@@ -29,7 +34,16 @@ The iterative generation, debugging, and logic synthesis cycles are documented w
 
 ---
 
-## Internal Modules & Architecture
+#### Internal Modules & Architecture
+
+##### [ZeroSenophage](ZeroSenophage)
+**Role:** GPU-Accelerated Thermodynamic Kinematics & Genomic Senolytic Simulator
+**Technical Stack:** CUDA C++ / DirectX 11 / Computational Biophysics
+**Architectural Highlights:**
+* **Massive VRAM Genomic Allocation & Bit-Packing:** Allocates ~8.59 GB VRAM for 34.359 billion total base pairs across 330 initial cellular agents, packing 16 base pairs per `uint32_t` word (2-bit nucleotide encoding) with wild-type anchor verification.
+* **Multi-Stream CUDA & Fluidics-Signaling Integration:** Coordinates 5 non-blocking CUDA streams executing 2D Lattice Boltzmann plasma hydrodynamics (D2Q9 BGK model, `tau = 0.8`), PDE reaction-diffusion SASP/ATP field evolution, and sensorimotor Hebbian neural drive (8 → 2 network).
+* **Autonomous Efferotabolism & Epigenetic Checkpoint Bypass:** Models Lévy walk foraging, trogoptosis, macropinocytosis, fatty acid β-oxidation energy recovery, and ABCA1 cholesterol efflux pumping while bypassing CD47 "don't eat me" evasion via `SIRPA` receptor knockout.
+* **Thermodynamic Mutagenesis & Non-Linear PARP-1 Repair:** Simulates Michaelis-Menten ROS oxidative bit-flipping across coding loci (`ACTB`, `CD47`, `SIRPA`, `P2RY2`, `ABCA1`) and ATP-dependent PARP-1 single-base DNA restoration, spooling 89-metric dual-chronology telemetry asynchronously over 36,322 simulation epochs.
 
 ### [ZeroCancerReactor](ZeroCancerReactor)
 **Role:** GPU-Accelerated 70M-Cell TME Simulator  
